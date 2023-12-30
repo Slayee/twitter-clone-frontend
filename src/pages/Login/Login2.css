@@ -1,0 +1,76 @@
+
+
+.login-container, .signup-container{
+    display: flex;
+   
+}
+
+.image-container{
+    flex: 0.5;
+    
+}
+.image-container > img{
+    max-width: 100%;
+}
+
+.form-container{
+    display: flex;
+    /* border: 1px solid black; */
+    flex: 0.5;
+    align-content: center;
+}
+
+.form-box{
+    justify-content: left;
+    padding: 50px 150px 0;
+}
+
+.twitter-img{
+    color: var(--twitter-color);
+}
+
+.form-box .heading{
+    font-size: 50px;
+    margin: 0;
+}
+
+.form-box .heading-2{
+    font-size: 30px;
+}
+
+.form-box form{
+    display: flex;
+    flex-direction: column;
+    max-width:80%;
+}
+
+.email, .password, .display-name{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: #e8f0fe;
+}
+
+.btn-login{
+    padding: 7px;
+}
+
+.btn{
+    width: 75%;
+    background-color: rgb(92, 199, 241);
+    padding: 10px;
+    margin: 15px 20px 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.signup-button{
+    color: skyblue;
+    margin-left: 5px;
+}
+
+.google-button{
+    margin: 10px 0 10px 0;
+}

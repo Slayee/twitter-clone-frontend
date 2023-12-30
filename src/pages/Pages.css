@@ -1,0 +1,26 @@
+.page{
+    display: flex;
+    flex: 0.4;
+    align-items: center;
+    border-right: 1px solid var(--twitter-background);
+    padding: 0 100px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-title{
+    color: var(--twitter-color);
+    text-align: center;
+    font-size: 30px;
+}
+
+.profile-page{
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.profile-page::-webkit-scrollbar{
+    display: none;
+}
